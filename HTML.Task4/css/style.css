@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    padding: 2rem 5rem;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    float: left;
+}
+
+.navbar{
+    float: right;
+    margin-top: 7px;
+}
+
+.logo svg{
+    width: 60%;
+}
+
+.navbar a{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 25px;
+
+}
+
+.writings{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 20rem 0;
+}
+
+.writings h3{
+    color: #fff;
+    font-size: 36px;
+}
+
+.writings h1{
+    color: #fff;
+    font-size: 72px;
+    margin: 20px 0 4rem;
+}
+
+.writings a{
+    color: #fff;
+    font-size: 18px;
+    background-color: #ffc800;
+    padding: 25px 40px;
+    border-radius: 7px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.writings a:hover{
+    background-color: #EDBA49;
+}
+
+.container{
+    text-align: center;
+    margin-top: 5rem;
+    padding: 0 5px;
+}
+
+.c-top h2{
+    color:#212529;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.c-top h3{
+    color: #6c757d;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 2rem;
+}
+
+.text{
+    width: 32%;
+    float: left;
+    margin: 0 10px 5rem;
+}
+
+.text h4{
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.text p{
+    width: 100%;
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.slider{
+    padding: 0 4rem;
+}
+
+.slider-top{
+    text-align: center;
+}
+
+.slider-top h2{
+    color: #212529;
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+.slider-top h3{
+    color: #6c757d;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 4rem;
+}
+
+.box{
+    float: left;
+    width: 30%;
+    margin: 0 calc(10%/6);
+}
+
+
+.box-top img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.box-text{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.box-text h3{
+    width: 100%;
+    color: #212529;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.box-text span{
+    width: 100%;
+    font-style: italic;
+    color: #6c757d;
+    font-size: 16px;
+}
+
+.box-bottom{
+    margin: 20px 0 40px;
+}
